@@ -13,9 +13,12 @@
 		200C541E1F0A22CE006F0FC8 /* LoveTravel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 200C541C1F0A22CE006F0FC8 /* LoveTravel.xcdatamodeld */; };
 		200C54201F0A22CE006F0FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 200C541F1F0A22CE006F0FC8 /* Assets.xcassets */; };
 		200C54231F0A22CE006F0FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200C54211F0A22CE006F0FC8 /* LaunchScreen.storyboard */; };
+		200C542C1F0A2428006F0FC8 /* Library in Resources */ = {isa = PBXBuildFile; fileRef = 200C542B1F0A2428006F0FC8 /* Library */; };
+		DD8ADB237F16F22386843076 /* Pods_LoveTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5653A60653BB4882583D99E7 /* Pods_LoveTravel.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CA0BA52B39C8DE3996D0B70 /* Pods-LoveTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTravel.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTravel/Pods-LoveTravel.release.xcconfig"; sourceTree = "<group>"; };
 		200C54121F0A22CE006F0FC8 /* LoveTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		200C54151F0A22CE006F0FC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		200C54171F0A22CE006F0FC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		200C541F1F0A22CE006F0FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		200C54221F0A22CE006F0FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		200C54241F0A22CE006F0FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		200C542B1F0A2428006F0FC8 /* Library */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Library; sourceTree = "<group>"; };
+		5653A60653BB4882583D99E7 /* Pods_LoveTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4D69CEF66420F35B009B42 /* Pods-LoveTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTravel/Pods-LoveTravel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8ADB237F16F22386843076 /* Pods_LoveTravel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				200C54141F0A22CE006F0FC8 /* LoveTravel */,
 				200C54131F0A22CE006F0FC8 /* Products */,
+				DD3DC151F192719005C799AA /* Pods */,
+				4EAEF949F91EB2F4E3D4CC01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +65,15 @@
 		200C54141F0A22CE006F0FC8 /* LoveTravel */ = {
 			isa = PBXGroup;
 			children = (
+				200C542B1F0A2428006F0FC8 /* Library */,
+				200C542A1F0A23E7006F0FC8 /* Main */,
+			);
+			path = LoveTravel;
+			sourceTree = "<group>";
+		};
+		200C542A1F0A23E7006F0FC8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				200C54151F0A22CE006F0FC8 /* AppDelegate.swift */,
 				200C54171F0A22CE006F0FC8 /* ViewController.swift */,
 				200C54191F0A22CE006F0FC8 /* Main.storyboard */,
@@ -64,7 +82,24 @@
 				200C54241F0A22CE006F0FC8 /* Info.plist */,
 				200C541C1F0A22CE006F0FC8 /* LoveTravel.xcdatamodeld */,
 			);
-			path = LoveTravel;
+			name = Main;
+			sourceTree = "<group>";
+		};
+		4EAEF949F91EB2F4E3D4CC01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5653A60653BB4882583D99E7 /* Pods_LoveTravel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3DC151F192719005C799AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB4D69CEF66420F35B009B42 /* Pods-LoveTravel.debug.xcconfig */,
+				0CA0BA52B39C8DE3996D0B70 /* Pods-LoveTravel.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 200C54271F0A22CE006F0FC8 /* Build configuration list for PBXNativeTarget "LoveTravel" */;
 			buildPhases = (
+				E7587EC5DC16B156F63B26FA /* [CP] Check Pods Manifest.lock */,
 				200C540E1F0A22CE006F0FC8 /* Sources */,
 				200C540F1F0A22CE006F0FC8 /* Frameworks */,
 				200C54101F0A22CE006F0FC8 /* Resources */,
+				2FCFF8BBC91B2BADABC9B0B6 /* [CP] Embed Pods Frameworks */,
+				D56398C49727B8732AC0BA9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200C542C1F0A2428006F0FC8 /* Library in Resources */,
 				200C54231F0A22CE006F0FC8 /* LaunchScreen.storyboard in Resources */,
 				200C54201F0A22CE006F0FC8 /* Assets.xcassets in Resources */,
 				200C541B1F0A22CE006F0FC8 /* Main.storyboard in Resources */,
@@ -133,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FCFF8BBC91B2BADABC9B0B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveTravel/Pods-LoveTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D56398C49727B8732AC0BA9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveTravel/Pods-LoveTravel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7587EC5DC16B156F63B26FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		200C540E1F0A22CE006F0FC8 /* Sources */ = {
@@ -264,6 +351,7 @@
 		};
 		200C54281F0A22CE006F0FC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB4D69CEF66420F35B009B42 /* Pods-LoveTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoveTravel/Info.plist;
@@ -276,6 +364,7 @@
 		};
 		200C54291F0A22CE006F0FC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA0BA52B39C8DE3996D0B70 /* Pods-LoveTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LoveTravel/Info.plist;
