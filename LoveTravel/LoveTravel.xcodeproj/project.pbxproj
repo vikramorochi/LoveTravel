@@ -18,6 +18,11 @@
 		200C54361F0A2AB7006F0FC8 /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200C54321F0A2AB7006F0FC8 /* MJRefresh.framework */; };
 		200C54371F0A2AB7006F0FC8 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200C54331F0A2AB7006F0FC8 /* SDWebImage.framework */; };
 		200C54381F0A2AB7006F0FC8 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200C54341F0A2AB7006F0FC8 /* SVProgressHUD.framework */; };
+		200C543B1F0A30CB006F0FC8 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200C54391F0A30CB006F0FC8 /* Home.storyboard */; };
+		200C543D1F0A30EA006F0FC8 /* Destination.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200C543C1F0A30EA006F0FC8 /* Destination.storyboard */; };
+		200C54401F0A3114006F0FC8 /* Mall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200C543E1F0A3114006F0FC8 /* Mall.storyboard */; };
+		200C54421F0A3131006F0FC8 /* Discuss.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200C54411F0A3131006F0FC8 /* Discuss.storyboard */; };
+		200C54451F0A314C006F0FC8 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200C54431F0A314C006F0FC8 /* Me.storyboard */; };
 		DD8ADB237F16F22386843076 /* Pods_LoveTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5653A60653BB4882583D99E7 /* Pods_LoveTravel.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +42,11 @@
 		200C54321F0A2AB7006F0FC8 /* MJRefresh.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MJRefresh.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/LoveTravel-bdsgbiwhpnvfsqapzbebnpbttwra/Build/Products/Debug-iphonesimulator/MJRefresh/MJRefresh.framework"; sourceTree = "<group>"; };
 		200C54331F0A2AB7006F0FC8 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/LoveTravel-bdsgbiwhpnvfsqapzbebnpbttwra/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
 		200C54341F0A2AB7006F0FC8 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/LoveTravel-bdsgbiwhpnvfsqapzbebnpbttwra/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
+		200C543A1F0A30CB006F0FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		200C543C1F0A30EA006F0FC8 /* Destination.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Destination.storyboard; sourceTree = "<group>"; };
+		200C543F1F0A3114006F0FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Mall.storyboard; sourceTree = "<group>"; };
+		200C54411F0A3131006F0FC8 /* Discuss.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discuss.storyboard; sourceTree = "<group>"; };
+		200C54441F0A314C006F0FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Me.storyboard; sourceTree = "<group>"; };
 		5653A60653BB4882583D99E7 /* Pods_LoveTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4D69CEF66420F35B009B42 /* Pods-LoveTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveTravel/Pods-LoveTravel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +101,11 @@
 				200C54151F0A22CE006F0FC8 /* AppDelegate.swift */,
 				200C54171F0A22CE006F0FC8 /* ViewController.swift */,
 				200C54191F0A22CE006F0FC8 /* Main.storyboard */,
+				200C54431F0A314C006F0FC8 /* Me.storyboard */,
+				200C54411F0A3131006F0FC8 /* Discuss.storyboard */,
+				200C543E1F0A3114006F0FC8 /* Mall.storyboard */,
+				200C543C1F0A30EA006F0FC8 /* Destination.storyboard */,
+				200C54391F0A30CB006F0FC8 /* Home.storyboard */,
 				200C541F1F0A22CE006F0FC8 /* Assets.xcassets */,
 				200C54211F0A22CE006F0FC8 /* LaunchScreen.storyboard */,
 				200C54241F0A22CE006F0FC8 /* Info.plist */,
@@ -184,9 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				200C542C1F0A2428006F0FC8 /* Library in Resources */,
+				200C543D1F0A30EA006F0FC8 /* Destination.storyboard in Resources */,
+				200C543B1F0A30CB006F0FC8 /* Home.storyboard in Resources */,
 				200C54231F0A22CE006F0FC8 /* LaunchScreen.storyboard in Resources */,
 				200C54201F0A22CE006F0FC8 /* Assets.xcassets in Resources */,
+				200C54451F0A314C006F0FC8 /* Me.storyboard in Resources */,
+				200C54401F0A3114006F0FC8 /* Mall.storyboard in Resources */,
 				200C541B1F0A22CE006F0FC8 /* Main.storyboard in Resources */,
+				200C54421F0A3131006F0FC8 /* Discuss.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +288,30 @@
 				200C54221F0A22CE006F0FC8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		200C54391F0A30CB006F0FC8 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200C543A1F0A30CB006F0FC8 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		200C543E1F0A3114006F0FC8 /* Mall.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200C543F1F0A3114006F0FC8 /* Base */,
+			);
+			name = Mall.storyboard;
+			sourceTree = "<group>";
+		};
+		200C54431F0A314C006F0FC8 /* Me.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				200C54441F0A314C006F0FC8 /* Base */,
+			);
+			name = Me.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -373,6 +417,7 @@
 			baseConfigurationReference = BB4D69CEF66420F35B009B42 /* Pods-LoveTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LoveTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -389,6 +434,7 @@
 			baseConfigurationReference = 0CA0BA52B39C8DE3996D0B70 /* Pods-LoveTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LoveTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
