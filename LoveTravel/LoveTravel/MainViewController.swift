@@ -17,8 +17,6 @@ class MainViewController: UITabBarController {
         self.addChildStoryboardWithName(name: "Mall")
         self.addChildStoryboardWithName(name: "Discuss")
         self.addChildStoryboardWithName(name: "Me")
-        
-        
     }
     
     func addChildStoryboardWithName(name:String) -> Void {
